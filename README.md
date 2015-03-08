@@ -1,4 +1,7 @@
+
 ### **basic-facebook-api**
+
+[![Build Status](https://travis-ci.org/theotow/basic-facebook-api.svg?branch=master)]
 
 This lib is for humans who want to check if the access_token someone send from the frontend is valid and can be used for further processing. Also it allowes to get an long term access_token of facebook.
 
