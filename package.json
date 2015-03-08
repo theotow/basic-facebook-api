@@ -1,0 +1,27 @@
+{
+  "name": "basic-facebook-api",
+  "version": "1.0.0",
+  "description": "Facebook api to check access token received from frontend and get a long leasting accesstoken of the user",
+  "main": "lib/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha -r requirejs -c -R spec -u bdd test/*.spec.js"
+  },
+  "keywords": [
+    "facebook"
+  ],
+  "author": "Manuel Villing <hi@manuelvilling.de>",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^2.9.13",
+    "chai": "^2.1.0",
+    "underscore": "^1.8.2",
+    "wreck": "^5.2.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.0",
+    "chai": "^2.1.0"
+  }
+}
