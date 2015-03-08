@@ -1,6 +1,6 @@
 {
   "name": "basic-facebook-api",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Facebook api to check access token received from frontend and get a long leasting accesstoken of the user",
   "main": "lib/index.js",
   "directories": {
@@ -20,8 +20,13 @@
     "underscore": "^1.8.2",
     "wreck": "^5.2.0"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theotow/basic-facebook-api"
+  },
   "devDependencies": {
     "mocha": "^2.2.0",
+    "underscore": "^1.8.2",
     "chai": "^2.1.0"
   }
 }
